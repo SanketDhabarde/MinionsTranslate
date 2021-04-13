@@ -1,12 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
 #input{
     display: block;
-    margin: 1rem;
-    width: 300px;
+    margin: 2rem auto;
+    width: 400px;
     height: 15vh;
 }
 #output{
     border: 1px solid black;
-    max-width: 300px;
+    max-width: 400px;
     height: 15vh;
-    margin: 1rem;
+    margin: 2rem auto;
+}
+
+#btn-translate{
+    padding: 0.8rem;
+    border: 1px solid transparent;
+    background-color: #fff44f;
+    cursor: pointer;
+}
+
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    margin: 3rem 20px;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.hero{
+    background-color: #fff44f;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 2rem 0;
+}
+.hero1{
+    background-color: #fff44f;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.about{
+    padding: 1rem;
 }
